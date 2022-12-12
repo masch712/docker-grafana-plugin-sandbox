@@ -1,0 +1,29 @@
+# Run these from the kibana dev console (http://localhost:5601/app/dev_tools#/console):
+
+POST flowchart/_doc/
+{
+  "processId": 4324,
+  "stepName": "influxDB",
+  "@timestamp": "2022-12-11T20:00:00Z"
+}
+
+POST flowchart/_doc/
+{
+  "processId": 4325,
+  "stepName": "influxDB",
+  "@timestamp": "2022-12-11T20:00:00Z"
+}
+
+POST flowchart/_doc/
+{
+  "processId": 4326,
+  "stepName": "influxDB",
+  "@timestamp": "2022-12-11T20:00:00Z"
+}
+
+POST flowchart/_doc/
+{
+  "processId": 4326,
+  "stepName": "influxDB",
+  "@timestamp": "2022-12-11T20:00:00Z"
+}
